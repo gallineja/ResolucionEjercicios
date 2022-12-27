@@ -24,7 +24,7 @@ class Persona {
     }
 
     public String getNombre() {
-        return nombre;
+        return this.nombre;
     }
 
     public void setEdad(int edad){
@@ -32,7 +32,7 @@ class Persona {
     }
 
     public int getEdad() {
-        return edad;
+        return this.edad;
     }
 
     public void setTelefono(int telefono){
@@ -40,6 +40,6 @@ class Persona {
     }
 
     public int getTelefono() {
-        return telefono;
+        return this.telefono;
     }
 }
